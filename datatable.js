@@ -1,3 +1,6 @@
+		<link rel="import" href="index.html">
+		<link rel="import" href="./d3/d3.min.js">
+
 		var w = 500;
 		var h = 200;
 		var barPadding = 1;
