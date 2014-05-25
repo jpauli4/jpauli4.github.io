@@ -2,10 +2,12 @@
 <html>
 <body>
 
+  <script src="./bower_components/platform/platform.js"></script>
   <link rel="stylesheet" href="mystyle.css">
-  <script src="Users/jadepauli/AST.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"  charset="utf-8"></script>
   <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+  <link rel="import" href="simple-slider.html">
+  <script src="simpleslider.min.js"></script>
 
 <h1>Portfolio</h1>
 
@@ -20,7 +22,7 @@
  </ul>
 </div>
 
-<p><em>Click the 'see more' links to find out more about the content of this portfolio.</em></p>
+<p><em>Click the 'see more' links to find out more about the content of this portfolio. <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/579010_10201666740691215_803013070_n.jpg"></em></p>
 
 
 <ul class="tiles">
@@ -29,7 +31,12 @@
     <a href="http://ast.codingthehumanities.com/">See more >></a>
   </li>
   <li class="photo">
-    <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/579010_10201666740691215_803013070_n.jpg">
+      <simple-slider style="width:245px; height:245px">
+        <img src="http://placekitten.com/g/612/612"/>
+        <img src="http://distilleryimage5.s3.amazonaws.com/de66967ac72111e2a23222000aaa0537_7.jpg"/>
+        <img src="http://distilleryimage8.s3.amazonaws.com/a042749ac72111e28c3c22000a1fb85a_7.jpg"/>
+        <img src="http://distilleryimage4.s3.amazonaws.com/8d32600ec72111e29f1422000a1fbc0e_7.jpg"/>
+    </simple-slider>
   </li>
   <li>
     <h2>Assignments</h2>

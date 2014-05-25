@@ -1,0 +1,19 @@
+{
+  "name": "jpauli4.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jpauli4/jpauli4.github.io",
+  "authors": [
+    "jpauli4 <jadepauli@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.2.3"
+  }
+}
