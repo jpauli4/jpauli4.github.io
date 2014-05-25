@@ -10,7 +10,7 @@
 
 
 		//Creating an SVG element
-		var svg = d3.select("body")
+		var svg = d3.select("Instagram table")
 					.append("svg")
 					.attr("width", w)
 					.attr("height", h);
