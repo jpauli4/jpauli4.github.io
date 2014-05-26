@@ -6,7 +6,7 @@
 		var barPadding = 1;
 
 		//Array of data
-		var dataset = {"food" : 21, "Other" : 12, "sports" : 15}
+		var dataset = [{"food" : 21, "Other" : 12, "sports" : 15'}]
 
 
 		//Creating an SVG element
