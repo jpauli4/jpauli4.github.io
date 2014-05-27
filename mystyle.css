@@ -24,12 +24,6 @@ ul.content {
   font-size: 14px;
 }
 
-div.navigate {
-  background-color:white;
-  width:100px; 
-  height:70px;
-  border-radius:25px;
-}
 
 div.ast {
   background-color:white;
