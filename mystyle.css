@@ -19,6 +19,14 @@ h3 {
   font-size: 24px
   }
 
+h5 {
+
+  align: center;
+  font-color: Black;
+  font-family: monospace;
+  font-size: 24px
+  }
+
 ul.content {
   font-family: monospace;
   font-size: 14px;
