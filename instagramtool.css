@@ -1,0 +1,194 @@
+html {
+  background-color: #d8d4c9;
+}
+body {
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+  margin-top: 0 !important;
+}
+#absolute-wrapper {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  height: 1px;
+}
+#absolute-wrapper .rectangle {
+  background: #80ccff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: none;
+  position: absolute;
+}
+#absolute-wrapper .rectangle.rectangle-1 {
+  width: 390px;
+  height: 511px;
+  top: 459px;
+  left: 24px;
+}
+#absolute-wrapper .rectangle.rectangle-1 .heading {
+  font-family:"helvetica";
+  width: 300px;
+  height: 42px;
+  position: absolute;
+  top: 23px;
+  left: 22px;
+}
+#absolute-wrapper .rectangle.rectangle-1 .icon.icon-fast-forward {
+  font-size: 32px;
+  height: 32px;
+  width: 48px;
+  position: absolute;
+  top: 471px;
+  left: 339px;
+}
+#absolute-wrapper .rectangle.rectangle-1 .icon.icon-fast-backward {
+  font-size: 32px;
+  height: 32px;
+  width: 41px;
+  position: absolute;
+  top: 473px;
+  left: 6px;
+}
+#absolute-wrapper .rectangle.rectangle-1 .icon.icon-backward {
+  font-size: 33px;
+  height: 33px;
+  width: 51px;
+  position: absolute;
+  top: 473px;
+  left: 140px;
+}
+#absolute-wrapper .rectangle.rectangle-1 .icon.icon-forward {
+  font-size: 32px;
+  height: 32px;
+  width: 41px;
+  position: absolute;
+  top: 473px;
+  left: 195px;
+}
+#absolute-wrapper .rectangle.rectangle-2 {
+  width: 380px;
+  height: 506px;
+  top: 461px;
+  left: 488px;
+}
+#absolute-wrapper .rectangle.rectangle-2 .heading {
+  font-family:"helvetica";
+  width: 300px;
+  height: 42px;
+  position: absolute;
+  top: 24px;
+  left: 21px;
+}
+#absolute-wrapper .rectangle.rectangle-2 .icon.icon-fast-forward {
+  font-size: 32px;
+  height: 32px;
+  width: 48px;
+  position: absolute;
+  top: 464px;
+  left: 323px;
+}
+#absolute-wrapper .rectangle.rectangle-2 .icon.icon-fast-backward {
+  font-size: 32px;
+  height: 32px;
+  width: 41px;
+  position: absolute;
+  top: 469px;
+  left: 7px;
+}
+#absolute-wrapper .rectangle.rectangle-2 .icon.icon-forward {
+  font-size: 32px;
+  height: 32px;
+  width: 41px;
+  position: absolute;
+  top: 471px;
+  left: 190px;
+}
+#absolute-wrapper .rectangle.rectangle-2 .icon.icon-backward {
+  font-size: 33px;
+  height: 33px;
+  width: 51px;
+  position: absolute;
+  top: 471px;
+  left: 142px;
+}
+#absolute-wrapper .icon.icon-fast-forward.icon-fast-forward-1 {
+  font-size: 32px;
+  height: 32px;
+  width: 48px;
+}
+#absolute-wrapper .icon.icon-fast-forward {
+  position: absolute;
+}
+#absolute-wrapper .icon.icon-fast-forward.icon-fast-forward-2 {
+  font-size: 43px;
+  height: 43px;
+  width: 70px;
+  top: 828px;
+  left: -346px;
+}
+.container {
+  width: 988px;
+  height: 420px;
+}
+.container .well.well-1 {
+  height: 190.9696969985962px;
+}
+.container .well.well-1 .page-header h1 {
+  font-family:"impact";
+  font-size: 46px;
+}
+.container .well.well-1 p {
+  font-family:"helvetica";
+  font-weight: bold;
+  font-size: 27px;
+}
+.container .well.well-1 input.textinput {
+  font-family:"helvetica";
+  border-radius: 11px;
+  height: 18.96969699859619px;
+  width: 298.9696969985962px;
+}
+.container .well.well-1 .btn {
+  font-size: 24px;
+  background: #ffffff;
+  background-image: -moz-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+  background-image: -webkit-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+  background-image: -o-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+  background-image: linear-gradient(180deg, #ffffff 0%, #e6e6e6 100%);
+  font-weight: bold;
+  font-family:"helvetica";
+}
+.container .well p {
+  font-family:"helvetica";
+  font-weight: bold;
+  font-size: 27px;
+}
+.container .well select {
+  font-family:"helvetica";
+  width: 200px;
+}
+.container .well input.textinput {
+  font-family:"helvetica";
+}
+.container .well input.textinput.textinput-1 {
+  border-radius: 11px;
+}
+.container .well input.textinput.textinput-2 {
+  border-radius: 9px;
+}
+.container .well .btn {
+  font-size: 24px;
+  font-weight: bold;
+  font-family:"helvetica";
+}
+.container .well .btn.btn-1 {
+  border-radius: 11px;
+}
