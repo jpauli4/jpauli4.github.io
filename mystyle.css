@@ -28,7 +28,7 @@ ol.theory {
   font-family: monospace;
   font-size: 14px;
   text-align: left;
-  text-indent:50px;
+  padding:left, 5px;
 }
 
 
