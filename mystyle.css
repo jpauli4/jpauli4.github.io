@@ -44,6 +44,14 @@ div.ast {
   border-radius:25px;
 }
 
+div.researchinfo {
+  background-color:white;
+  width:1000px; 
+  height:2000px;
+  border-radius:25px;
+  padding-left: 50px;
+}
+
 p {
   font-family: monospace;
   font-size: 16px;
