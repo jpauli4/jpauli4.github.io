@@ -24,6 +24,12 @@ ul.theory {
   font-size: 14px;
 }
 
+ol.theory {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+
 ul.content {
   font-family: monospace;
   font-size: 16px;
