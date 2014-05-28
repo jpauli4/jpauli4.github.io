@@ -27,6 +27,7 @@ ul.theory {
 ol.theory {
   font-family: monospace;
   font-size: 14px;
+  text-align: center;
 }
 
 
@@ -46,6 +47,8 @@ p {
   font-family: monospace;
   font-size: 16px;
   font-color: black;
+  text-align: center;
+
   
 }
 ul.tiles {
