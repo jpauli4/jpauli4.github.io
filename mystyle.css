@@ -11,13 +11,6 @@ h1 {
   font-size: 64px
   }
 
-h2 {
-
-  align: center;
-  font-color: Black;
-  font-family: monospace;
-  font-size: 24px
-  }
 
 h3 {
 
@@ -26,6 +19,15 @@ h3 {
   font-family: monospace;
   font-size: 24px
   }
+
+h4 {
+
+  align: center;
+  font-color: Black;
+  font-family: monospace;
+  font-size: 24px
+  }
+
 
 ul.theory {
   font-family: monospace;
